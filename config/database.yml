@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  # For details on connection pooling, see Rails configuration guide
+  # https://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: <%= ENV.fetch('RAILS_MAX_THREADS') { 5 } %>
+  username: <%= ENV.fetch('DB_USERNAME') %>
+  password: <%= ENV.fetch('DB_PASSWORD') %>
+
+development:
+  <<: *default
+  database: prizenberg_db_development
+
+test:
+  <<: *default
+  database: prizenberg_db_test
+
+production:
+  <<: *default
+  database: prizenberg_db
