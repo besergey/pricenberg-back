@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_05_25_153310) do
+ActiveRecord::Schema[7.0].define(version: 2023_06_14_201451) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -18,4 +18,76 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_25_153310) do
     t.string "name", null: false
   end
 
+  create_table "hard_drives", force: :cascade do |t|
+    t.string "form_factor"
+    t.integer "capacity"
+    t.integer "cache"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "memory_kits", force: :cascade do |t|
+    t.integer "capacity"
+    t.integer "module_count"
+    t.string "form_factor"
+    t.string "memory_type"
+    t.float "speed"
+    t.string "timing"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "prices", force: :cascade do |t|
+    t.bigint "product_id", null: false
+    t.integer "shop", null: false
+    t.float "price", null: false
+    t.string "link", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["product_id"], name: "index_prices_on_product_id"
+  end
+
+  create_table "processors", force: :cascade do |t|
+    t.integer "core_count"
+    t.integer "threads"
+    t.float "min_freq"
+    t.float "max_freq"
+    t.integer "tdp"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.json "properties"
+  end
+
+  create_table "products", force: :cascade do |t|
+    t.string "description_type", null: false
+    t.bigint "description_id", null: false
+    t.bigint "category_id", null: false
+    t.string "name", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["category_id"], name: "index_products_on_category_id"
+    t.index ["description_type", "description_id"], name: "index_products_on_description"
+  end
+
+  create_table "solid_drives", force: :cascade do |t|
+    t.string "interface"
+    t.integer "capacity"
+    t.integer "read_speed"
+    t.integer "write_speed"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "videocards", force: :cascade do |t|
+    t.float "memory_size"
+    t.string "memory_type"
+    t.integer "freq"
+    t.string "interface"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.json "properties"
+  end
+
+  add_foreign_key "prices", "products"
+  add_foreign_key "products", "categories"
 end
