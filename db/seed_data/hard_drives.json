@@ -1,0 +1,188 @@
+[
+  {
+    "name": "WD Gold 12TB",
+    "capacity": 12000,
+    "form_factor": "3.5",
+    "cache": 256
+  },
+  {
+    "name": "Seagate BarraCuda 1TB ST1000DM010",
+    "capacity": 1000,
+    "form_factor": "3.5",
+    "cache": 64
+  },
+  {
+    "name": "Seagate IronWolf 4TB ST4000VN008",
+    "capacity": 4000,
+    "form_factor": "3.5",
+    "cache": 64
+  },
+  {
+    "name": "Toshiba P300 2TB",
+    "capacity": 2000,
+    "form_factor": "3.5",
+    "cache": 64
+  },
+  {
+    "name": "Western Digital Black 2TB WD2003FZEX",
+    "capacity": 2000,
+    "form_factor": "3.5",
+    "cache": 64
+  },
+  {
+    "name": "Western Digital Gold 2TB Enterprise",
+    "capacity": 2000,
+    "form_factor": "3.5",
+    "cache": 128
+  },
+  {
+    "name": "Seagate Barracuda ST2000DM008 2TB",
+    "capacity": 2000,
+    "form_factor": "3.5",
+    "cache": 256
+  },
+  {
+    "name": "WD Gold 1TB Enterprise",
+    "capacity": 1000,
+    "form_factor": "3.5",
+    "cache": 128
+  },
+  {
+    "name": "Toshiba P300 1TB",
+    "capacity": 1000,
+    "form_factor": "3.5",
+    "cache": 64
+  },
+  {
+    "name": "Seagate IronWolf 2TB NAS ST2000VN004",
+    "capacity": 2000,
+    "form_factor": "3.5",
+    "cache": 64
+  },
+  {
+    "name": "Seagate IronWolf 3TB NAS ST3000VN007",
+    "capacity": 3000,
+    "form_factor": "3.5",
+    "cache": 64
+  },
+  {
+    "name": "Western Digital Caviar Blue 1TB",
+    "capacity": 1000,
+    "form_factor": "3.5",
+    "cache": 64
+  },
+  {
+    "name": "WD Purple 6TB WD60PURZ",
+    "capacity": 6000,
+    "form_factor": "3.5",
+    "cache": 64
+  },
+  {
+    "name": "WD Black 1TB WD1003FZEX",
+    "capacity": 1000,
+    "form_factor": "3.5",
+    "cache": 64
+  },
+  {
+    "name": "Seagate SkyHawk 2TB ST2000VX008",
+    "capacity": 2000,
+    "form_factor": "3.5",
+    "cache": 64
+  },
+  {
+    "name": "Seagate IronWolf 1TB NAS ST1000VN002",
+    "capacity": 1000,
+    "form_factor": "3.5",
+    "cache": 64
+  },
+  {
+    "name": "Western Digital Red 6TB NAS",
+    "capacity": 6000,
+    "form_factor": "3.5",
+    "cache": 64
+  },
+  {
+    "name": "Seagate SkyHawk 1TB ST1000VX005",
+    "capacity": 1000,
+    "form_factor": "3.5",
+    "cache": 64
+  },
+  {
+    "name": "WD Purple 3TB WD30PURZ",
+    "capacity": 3000,
+    "form_factor": "3.5",
+    "cache": 64
+  },
+  {
+    "name": "Western Digital Red 4TB",
+    "capacity": 4000,
+    "form_factor": "3.5",
+    "cache": 64
+  },
+  {
+    "name": "Western Digital 500GB WD Black",
+    "capacity": 500,
+    "form_factor": "3.5",
+    "cache": 64
+  },
+  {
+    "name": "Western Digital 2TB WD Purple",
+    "capacity": 2000,
+    "form_factor": "3.5",
+    "cache": 64
+  },
+  {
+    "name": "Seagate 8TB Barracuda ST8000DM004",
+    "capacity": 8000,
+    "form_factor": "3.5",
+    "cache": 256
+  },
+  {
+    "name": "WD Red 6TB WD60EFAX",
+    "capacity": 6000,
+    "form_factor": "3.5",
+    "cache": 256
+  },
+  {
+    "name": "Western Digital Blue 1TB WD10EZRZ",
+    "capacity": 1000,
+    "form_factor": "3.5",
+    "cache": 64
+  },
+  {
+    "name": "Western Digital 1TB WD Purple",
+    "capacity": 1000,
+    "form_factor": "3.5",
+    "cache": 64
+  },
+  {
+    "name": "Seagate 4TB BarraCuda ST4000DM004",
+    "capacity": 4000,
+    "form_factor": "3.5",
+    "cache": 256
+  },
+  {
+    "name": "Western Digital Purple 3TB WD30PURX",
+    "capacity": 3000,
+    "form_factor": "3.5",
+    "cache": 64
+  },
+  {
+    "name": "Western Digital 1TB WD Red Plus",
+    "capacity": 1000,
+    "form_factor": "3.5",
+    "cache": 64
+  },
+  {
+    "name": "WD Purple 2TB WD20PURX",
+    "capacity": 2000,
+    "form_factor": "3.5",
+    "cache": 64
+  },
+  {
+    "name": "Seagate Barracuda 3TB ST3000DM007",
+    "capacity": 3000,
+    "form_factor": "3.5",
+    "cache": 256
+  }
+]

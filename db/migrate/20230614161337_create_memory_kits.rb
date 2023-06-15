@@ -5,7 +5,7 @@ class CreateMemoryKits < ActiveRecord::Migration[7.0]
       t.integer :module_count
       t.string :form_factor
       t.string :memory_type
-      t.float :speed
+      t.integer :speed
       t.string :timing
 
       t.timestamps

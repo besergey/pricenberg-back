@@ -49,7 +49,9 @@ gem 'bootsnap', require: false
 # gem "image_processing", "~> 1.2"
 
 gem 'blueprinter'
+gem 'carrierwave', '>= 3.0.0.rc', '< 4.0'
 gem 'dotenv-rails'
+gem 'rack-cors'
 gem 'will_paginate', '~> 4.0'
 
 group :development, :test do

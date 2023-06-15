@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Acer SA100",
+    "interface": "SATA/AHCI",
+    "capacity": 2000,
+    "read_speed": 560,
+    "write_speed": 500
+  },
+  {
+    "name": "Acer FA100",
+    "interface": "x4 PCIe 3.0/NVMe",
+    "capacity": 2000,
+    "read_speed": 3300,
+    "write_speed": 2700
+  },
+  {
+    "name": "Acer GM3500",
+    "interface": "x4 PCIe 3.0/NVMe",
+    "capacity": 1000,
+    "read_speed": 3400,
+    "write_speed": 3000
+  },
+  {
+    "name": "Acer GM7000 (Predator)",
+    "interface": "x4 PCIe 4.0/NVMe",
+    "capacity": 2000,
+    "read_speed": 7400,
+    "write_speed": 6400
+  },
+  {
+    "name": "Acer RE100",
+    "interface": "SATA/AHCI",
+    "capacity": 4000,
+    "read_speed": 560,
+    "write_speed": 520
+  },
+  {
+    "name": "ADATA ATOM 30",
+    "interface": "x4 PCIe 3.0/NVMe",
+    "capacity": 1000,
+    "read_speed": 2500,
+    "write_speed": 2000
+  },
+  {
+    "name": "ADATA ATOM 40",
+    "interface": "x4 PCIe 4.0/NVMe",
+    "capacity": 1000,
+    "read_speed": 3500,
+    "write_speed": 3000
+  },
+  {
+    "name": "ADATA ATOM 50",
+    "interface": "x4 PCIe 4.0/NVMe",
+    "capacity": 1000,
+    "read_speed": 5000,
+    "write_speed": 4500
+  },
+  {
+    "name": "ADATA Falcon",
+    "interface": "x4 PCIe 3.0/NVMe",
+    "capacity": 2000,
+    "read_speed": 3100,
+    "write_speed": 1500
+  }
+]

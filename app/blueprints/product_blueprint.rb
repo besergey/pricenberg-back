@@ -3,9 +3,5 @@ class ProductBlueprint < Blueprinter::Base
 
   fields :name, :category_id
 
-  field :description do |product|
-    blueprint = "#{product.description_type}Blueprint".constantize
-
-    association :description, blueprint: blueprint
-  end
+  association :description, blueprint: ->(description) { description.blueprint }, default: {}
 end

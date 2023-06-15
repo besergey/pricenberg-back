@@ -1,0 +1,119 @@
+[
+  {
+    "name": "GeForce RTX 4070",
+    "memory_size": 12,
+    "memory_type": " GDDR6X",
+    "interface": "PCIe 4.0 x16",
+    "freq": 1920,
+    "additional_properties": {
+      "chip": "AD104",
+      "release_date": "Apr 12th, 2023",
+      "bus_size": "192 bit",
+      "memory_freq": "1313 MHz"
+    }
+  },
+  {
+    "name": "GeForce RTX 4090",
+    "memory_size": 24,
+    "memory_type": " GDDR6X",
+    "interface": "PCIe 4.0 x16",
+    "freq": 2235,
+    "additional_properties": {
+      "chip": "AD102",
+      "release_date": "Sep 20th, 2022",
+      "bus_size": "384 bit",
+      "memory_freq": "1313 MHz"
+    }
+  },
+  {
+    "name": "Radeon RX 7600",
+    "memory_size": 8,
+    "memory_type": " GDDR6",
+    "interface": "PCIe 4.0 x8",
+    "freq": 1720,
+    "additional_properties": {
+      "chip": "Navi 33",
+      "release_date": "May 24th, 2023",
+      "bus_size": "128 bit",
+      "memory_freq": "2250 MHz"
+    }
+  },
+  {
+    "name": "GeForce RTX 3060 12 GB",
+    "memory_size": 12,
+    "memory_type": " GDDR6",
+    "interface": "PCIe 4.0 x16",
+    "freq": 1320,
+    "additional_properties": {
+      "chip": "GA106",
+      "release_date": "Jan 12th, 2021",
+      "bus_size": "192 bit",
+      "memory_freq": "1875 MHz"
+    }
+  },
+  {
+    "name": "GeForce RTX 3060 Ti",
+    "memory_size": 8,
+    "memory_type": " GDDR6",
+    "interface": "PCIe 4.0 x16",
+    "freq": 1410,
+    "additional_properties": {
+      "chip": "GA104",
+      "release_date": "Dec 1st, 2020",
+      "bus_size": "256 bit",
+      "memory_freq": "1750 MHz"
+    }
+  },
+  {
+    "name": "Radeon RX 580",
+    "memory_size": 8,
+    "memory_type": " GDDR5",
+    "interface": "PCIe 3.0 x16",
+    "freq": 1257,
+    "additional_properties": {
+      "chip": "Polaris 20",
+      "release_date": "Apr 18th, 2017",
+      "bus_size": "256 bit",
+      "memory_freq": "2000 MHz"
+    }
+  },
+  {
+    "name": "GeForce RTX 4060 Ti 8 GB",
+    "memory_size": 8,
+    "memory_type": " GDDR6",
+    "interface": "PCIe 4.0 x8",
+    "freq": 2310,
+    "additional_properties": {
+      "chip": "AD106",
+      "release_date": "May 18th, 2023",
+      "bus_size": "128 bit",
+      "memory_freq": "2250 MHz"
+    }
+  },
+  {
+    "name": "Radeon RX 6700 XT",
+    "memory_size": 12,
+    "memory_type": " GDDR6",
+    "interface": "PCIe 4.0 x16",
+    "freq": 2321,
+    "additional_properties": {
+      "chip": "Navi 22",
+      "release_date": "Mar 3rd, 2021",
+      "bus_size": "192 bit",
+      "memory_freq": "2000 MHz"
+    }
+  },
+  {
+    "name": "GeForce RTX 4070 Ti",
+    "memory_size": 12,
+    "memory_type": " GDDR6X",
+    "interface": "PCIe 4.0 x16",
+    "freq": 2310,
+    "additional_properties": {
+      "chip": "AD104",
+      "release_date": "Jan 3rd, 2023",
+      "bus_size": "192 bit",
+      "memory_freq": "1313 MHz"
+    }
+  }
+]

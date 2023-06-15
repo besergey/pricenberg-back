@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Corsair Dominator",
+    "speed": 3600,
+    "timing": "C18",
+    "capacity": 8,
+    "module_count": 2,
+    "form_factor": "DIMM",
+    "memory_type": "DDR4"
+  },
+  {
+    "name": "Corsair Dominator",
+    "speed": 4000,
+    "timing": "C19",
+    "capacity": 8,
+    "module_count": 2,
+    "form_factor": "DIMM",
+    "memory_type": "DDR4"
+  },
+  {
+    "name": "Corsair Dominator  (chrome)",
+    "speed": 3200,
+    "timing": "C14",
+    "capacity": 16,
+    "module_count": 2,
+    "form_factor": "DIMM",
+    "memory_type": "DDR4"
+  },
+  {
+    "name": "Corsair Dominator  (black)",
+    "speed": 3200,
+    "timing": "C14",
+    "capacity": 16,
+    "module_count": 2,
+    "form_factor": "DIMM",
+    "memory_type": "DDR4"
+  },
+  {
+    "name": "Corsair Dominator  (torque)",
+    "speed": 3200,
+    "timing": "C14",
+    "capacity": 16,
+    "module_count": 2,
+    "form_factor": "DIMM",
+    "memory_type": "DDR4"
+  },
+  {
+    "name": "Corsair Dominator",
+    "speed": 3600,
+    "timing": "C16",
+    "capacity": 8,
+    "module_count": 4,
+    "form_factor": "DIMM",
+    "memory_type": "DDR4"
+  },
+  {
+    "name": "Corsair Dominator  (chrome)",
+    "speed": 3200,
+    "timing": "C14",
+    "capacity": 8,
+    "module_count": 4,
+    "form_factor": "DIMM",
+    "memory_type": "DDR4"
+  },
+  {
+    "name": "Corsair Dominator  (black)",
+    "speed": 3200,
+    "timing": "C14",
+    "capacity": 8,
+    "module_count": 4,
+    "form_factor": "DIMM",
+    "memory_type": "DDR4"
+  },
+  {
+    "name": "Corsair Dominator  (torque)",
+    "speed": 3200,
+    "timing": "C14",
+    "capacity": 8,
+    "module_count": 4,
+    "form_factor": "DIMM",
+    "memory_type": "DDR4"
+  },
+  {
+    "name": "Corsair Dominator",
+    "speed": 4000,
+    "timing": "C19",
+    "capacity": 8,
+    "module_count": 4,
+    "form_factor": "DIMM",
+    "memory_type": "DDR4"
+  },
+  {
+    "name": "ADATA XPG Lancer",
+    "speed": 6400,
+    "timing": "CL32-39-39",
+    "capacity": 16,
+    "module_count": 2,
+    "form_factor": "DIMM",
+    "memory_type": "DDR5"
+  },
+  {
+    "name": "Kingston FURY Beast",
+    "speed": 5200,
+    "timing": "C40",
+    "capacity": 16,
+    "module_count": 2,
+    "form_factor": "DIMM",
+    "memory_type": "DDR5"
+  }
+]
