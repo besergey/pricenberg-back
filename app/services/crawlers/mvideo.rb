@@ -19,12 +19,12 @@ module Crawlers
       'x-set-application-id': '534abd5f-ec95-4aa7-8752-86e6f0097153'
     }.with_indifferent_access.freeze
 
-    CATEGORIES = {
-      "HDD" => 5445,
-      "SSD" => 5446,
-      "CPU" => 5301,
-      "GPU" => 4231,
-      "RAM" => 6675
-    }
+    CATEGORIES = [
+      { "hard_drive" => 5445 },
+      { "solid_drive" => 5446 },
+      { "processor" => 5301 },
+      { "videocard" => 4231 },
+      { "memory_kit" => 6675 }
+    ]
   end
 end

@@ -1,8 +1,8 @@
 class MvideoCrawlWorker
   include Sidekiq::Worker
   
-  def perform(category_id)
-    data = Crawlers::Mvideo::Crawler.new.run(category_id)
+  def perform(category)
+    data = Crawlers::Mvideo::Crawler.new(category).run
 
     Crawlers::Mvideo::PopulateDataToDb.new(data).call
   end

@@ -1,13 +1,14 @@
 class Crawlers::Mvideo::Crawler
-  attr_reader :client, :data
+  attr_reader :client, :data, :category
 
-  def initialize
+  def initialize(category)
     @client = ApiClient.new
+    @category = category
     @data = {}
   end
 
-  def run(category_id)
-    product_ids = get_ids_from_listings(category_id)
+  def run
+    product_ids = get_ids_from_listings(category[:id])
 
     get_info_for_ids(product_ids)
     get_prices_for_ids(product_ids)
@@ -27,7 +28,7 @@ class Crawlers::Mvideo::Crawler
       acc.push(*current_page_ids)
     else
       sleep(1) # to prevent a DDOS
-      get_ids_from_listings(category_id, offset + 1, acc.push(*current_page_ids))
+      get_ids_from_listings(category_id, offset + MAX_PAGE_SIZE, acc.push(*current_page_ids))
     end
   end
 
@@ -37,7 +38,7 @@ class Crawlers::Mvideo::Crawler
     products = response.dig('body', 'products')
 
     ids.each do |id|
-      product = products.find { |product| product['productId'] == id }
+      product = products.find { |product| product['productId'] == id } 
       data[id] = product
     end
   end
@@ -48,8 +49,14 @@ class Crawlers::Mvideo::Crawler
     prices = response.dig('body', 'materialPrices')
 
     ids.each do |id|
+      next if product_exists?(data[id])
+
       price = prices.find { |price| price['productId'] == id }
       data[id].merge!(price: price)
     end
+  end
+
+  def product_exists?(product)
+    Product.join(:categories).where(categories: { name: category[:name] }).where('name LIKE ?', "%#{product['modelName']}%").any?
   end
 end
