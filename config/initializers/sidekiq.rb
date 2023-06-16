@@ -24,9 +24,9 @@ Sidekiq.configure_server do |config|
   end
 end
 
-Sidekiq.options[:poll_interval] = 10
+# Sidekiq.options[:poll_interval] = 10
 
-Sidekiq::Extensions.enable_delay!
+# Sidekiq::Extensions.enable_delay!
 
 Sidekiq::Web.use(Rack::Auth::Basic) do |user, password|
   [user, password] == [ENV['SIDEKIQ_USERNAME'], ENV['SIDEKIQ_PASSWORD']]
