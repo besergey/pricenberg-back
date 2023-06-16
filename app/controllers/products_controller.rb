@@ -1,6 +1,7 @@
 class ProductsController < ApplicationController
   def search
     @products = Product
+      .includes(:prices, :description)
       .by_category(search_params[:category])
       .search(search_params[:query])
       .paginate(page: search_params[:page], per_page: search_params[:per_page])
