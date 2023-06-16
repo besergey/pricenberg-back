@@ -4,4 +4,8 @@ class ProductBlueprint < Blueprinter::Base
   fields :name, :category_id
 
   association :description, blueprint: ->(description) { description.blueprint }, default: {}
+
+  field :price do |product|
+    product.prices.minimum(:price)
+  end
 end

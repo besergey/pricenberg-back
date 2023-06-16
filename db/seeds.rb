@@ -52,3 +52,19 @@ categories.each do |category_data|
     Product.create(name: item[:name], category: category, description: product_description)
   end
 end
+
+Processor.all.includes(:product).each do |processor|
+  current_time = Time.now
+  10.times do |day_offset|
+    Price.shops.keys.map(&:to_sym).each do |shop|
+      Price.create(
+        product_id: processor.product.id,
+        shop: shop,
+        price: (1000 + rand(1000)) * 10,
+        link: 'https://www.dns-shop.ru/product/1792bdac5c7bed20/processor-amd-pro-a6-8570-oem/',
+        created_at: current_time - (10 - day_offset),
+        updated_at: current_time - (10 - day_offset)
+      )
+    end
+  end
+end
