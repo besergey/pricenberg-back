@@ -1,7 +1,7 @@
 class ProductsController < ApplicationController
   def search
     @products = Product
-      .includes(:prices, :description)
+      .includes(:prices)
       .by_category(search_params[:category])
       .search(search_params[:query])
       .paginate(page: search_params[:page], per_page: search_params[:per_page])
@@ -24,9 +24,20 @@ class ProductsController < ApplicationController
     render json: ProductBlueprint.render(@product)
   end
 
+  def prices
+    @product = Product.find(params[:id])
+    grouped_prices = @product.prices.group_by(&:shop).values.map { |values| values.sort_by(&:created_at) }
+    last_prices = grouped_prices.map { |prices| prices.last }
+    render json: PriceBlueprint.render(last_prices, root: :items, meta: { total: last_prices.count })
+  end
+
   private
 
   def search_params
     params.permit(:category, :query, :page, :per_page).with_defaults(category: nil, query: '', page: 1, per_page: 10)
+  end
+
+  def prices_params
+    params.permit(:page, :per_page).with_defaults(page: 1, per_page: 10)
   end
 end
