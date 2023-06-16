@@ -1,0 +1,14 @@
+development:
+ host: <%= ENV['REDIS_HOST'] || 'localhost' %>
+ port: '6379'
+test:
+ host: 'localhost'
+ port: '6379/6'
+staging:
+ host: <%= ENV['REDIS_HOST'] %>
+ db: '12'
+ port: '6379'
+production:
+ host: <%= ENV['REDIS_HOST'] %>
+ db: '1'
+ port: '6379'

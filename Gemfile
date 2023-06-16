@@ -53,6 +53,8 @@ gem 'carrierwave', '>= 3.0.0.rc', '< 4.0'
 gem 'dotenv-rails'
 gem 'rack-cors'
 gem 'will_paginate', '~> 4.0'
+gem 'sidekiq'
+gem 'sidekiq-cron'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
