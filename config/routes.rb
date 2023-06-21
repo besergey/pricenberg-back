@@ -9,4 +9,6 @@ Rails.application.routes.draw do
       get 'prices'
     end
   end
+
+  mount Sidekiq::Web => '/sidekiq'
 end

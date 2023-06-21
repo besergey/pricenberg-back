@@ -26,7 +26,7 @@ categories = [
     description_model: SolidDrive
   },
   {
-    name: 'Жесткоие диски',
+    name: 'Жесткие диски',
     picture_filename: 'hard_drive',
     items: hard_drives,
     description_model: HardDrive

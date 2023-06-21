@@ -1,9 +1,10 @@
 class Cron::EldoradoCrawlWorker
-  include 'sidekiq-worker'
+  include Sidekiq::Worker
 
   def perform
-    Crawlers::Eldorado::CATEGORIES.each do |_, category|
-      Eldorado::CrawlWorker.perform_async(category)
+    Product.product_description_types.each do |type|
+      Eldorado::CrawlWorker.perform_async(type)
+      sleep(600)
     end
   end
 end

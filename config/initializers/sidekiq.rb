@@ -23,11 +23,3 @@ Sidekiq.configure_server do |config|
     Sidekiq::Cron::Job.load_from_hash YAML.load_file(schedule_file)
   end
 end
-
-# Sidekiq.options[:poll_interval] = 10
-
-# Sidekiq::Extensions.enable_delay!
-
-Sidekiq::Web.use(Rack::Auth::Basic) do |user, password|
-  [user, password] == [ENV['SIDEKIQ_USERNAME'], ENV['SIDEKIQ_PASSWORD']]
-end

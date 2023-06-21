@@ -1,9 +1,15 @@
 class EldoradoCrawlWorker
   include Sidekiq::Worker
   
-  def perform(category_id)
-    data = Crawlers::Eldorado::Crawler.new.run(category_id)
+  def perform(type)
+    products = Product.where(description_type: type)
 
-    Crawlers::Eldorado::PopulateDataToDb.new(data).call
+    products.each do |product|
+      Crawlers::Eldorado::Crawler.new.run(product.id)
+      sleep(60)
+    rescue => e
+      puts "!!! ERROR IN EldoradoCrawlWorker!!!", e.message
+      puts "BACKTRACE", e.backtrace
+    end
   end
 end

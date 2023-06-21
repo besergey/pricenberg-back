@@ -1,6 +1,6 @@
 [
   {
-    "name": "Ryzen 5 3600 Matisse",
+    "name": "Ryzen 5 3600",
     "core_count": 6,
     "threads": 12,
     "min_freq": 3.6,
@@ -14,7 +14,7 @@
     }
   },
   {
-    "name": "Ryzen 5 5600G Cezanne",
+    "name": "Ryzen 5 5600G",
     "core_count": 6,
     "threads": 12,
     "min_freq": 3.9,
@@ -28,7 +28,7 @@
     }
   },
   {
-    "name": "Ryzen 5 5600X Vermeer",
+    "name": "Ryzen 5 5600X",
     "core_count": 6,
     "threads": 12,
     "min_freq": 3.7,
@@ -42,7 +42,7 @@
     }
   },
   {
-    "name": "Core i9-13900K Raptor Lake-S ",
+    "name": "Core i9-13900K",
     "core_count": 24,
     "threads": 32,
     "min_freq": 3,
@@ -56,7 +56,7 @@
     }
   },
   {
-    "name": "Ryzen 5 5600 Vermeer",
+    "name": "Ryzen 5 5600",
     "core_count": 6,
     "threads": 12,
     "min_freq": 3.5,
@@ -70,7 +70,7 @@
     }
   },
   {
-    "name": "Ryzen 5 2600 Zen",
+    "name": "Ryzen 5 2600",
     "core_count": 6,
     "threads": 12,
     "min_freq": 3.4,
@@ -84,7 +84,7 @@
     }
   },
   {
-    "name": "Ryzen 7 5700X Vermeer",
+    "name": "Ryzen 7 5700X",
     "core_count": 8,
     "threads": 16,
     "min_freq": 3.4,
@@ -98,7 +98,7 @@
     }
   },
   {
-    "name": "Ryzen 5 5500 Cezanne",
+    "name": "Ryzen 5 5500",
     "core_count": 6,
     "threads": 12,
     "min_freq": 3.6,
@@ -112,7 +112,7 @@
     }
   },
   {
-    "name": "Ryzen 3 3200G Picasso",
+    "name": "Ryzen 3 3200G",
     "core_count": 4,
     "threads": 4,
     "min_freq": 3.6,
@@ -126,7 +126,7 @@
     }
   },
   {
-    "name": "Ryzen 7 7800X3D Raphael",
+    "name": "Ryzen 7 7800X3D",
     "core_count": 8,
     "threads": 16,
     "min_freq": 4.2,
@@ -140,7 +140,7 @@
     }
   },
   {
-    "name": "Ryzen 7 5800X Vermeer",
+    "name": "Ryzen 7 5800X",
     "core_count": 8,
     "threads": 16,
     "min_freq": 3.8,
@@ -154,7 +154,7 @@
     }
   },
   {
-    "name": "Ryzen 7 3700X Matisse",
+    "name": "Ryzen 7 3700X",
     "core_count": 8,
     "threads": 16,
     "min_freq": 3.6,
@@ -168,7 +168,7 @@
     }
   },
   {
-    "name": "Ryzen 7 7840U Phoenix",
+    "name": "Ryzen 7 7840U",
     "core_count": 8,
     "threads": 16,
     "min_freq": 3.3,
@@ -182,7 +182,7 @@
     }
   },
   {
-    "name": "Ryzen 7 5800X3D Vermeer",
+    "name": "Ryzen 7 5800X3D",
     "core_count": 8,
     "threads": 16,
     "min_freq": 3.4,
@@ -196,7 +196,7 @@
     }
   },
   {
-    "name": "Ryzen 9 7950X Raphael ",
+    "name": "Ryzen 9 7950X",
     "core_count": 16,
     "threads": 32,
     "min_freq": 4.5,
@@ -210,7 +210,7 @@
     }
   },
   {
-    "name": "Ryzen 7 2700X Zen",
+    "name": "Ryzen 7 2700X",
     "core_count": 8,
     "threads": 16,
     "min_freq": 3.7,
@@ -224,7 +224,7 @@
     }
   },
   {
-    "name": "Core i5-13600K Raptor Lake-S ",
+    "name": "Core i5-13600K",
     "core_count": 14,
     "threads": 20,
     "min_freq": 3.5,
@@ -238,7 +238,7 @@
     }
   },
   {
-    "name": "Ryzen 5 1600 Zen",
+    "name": "Ryzen 5 1600",
     "core_count": 6,
     "threads": 12,
     "min_freq": 3.2,
@@ -252,7 +252,7 @@
     }
   },
   {
-    "name": "Ryzen 5 4600G Renoir",
+    "name": "Ryzen 5 4600G",
     "core_count": 6,
     "threads": 12,
     "min_freq": 3.7,
@@ -266,7 +266,7 @@
     }
   },
   {
-    "name": "Ryzen 7 5700G Cezanne",
+    "name": "Ryzen 7 5700G",
     "core_count": 8,
     "threads": 16,
     "min_freq": 3.8,
@@ -280,7 +280,7 @@
     }
   },
   {
-    "name": "Ryzen 9 5900X Vermeer ",
+    "name": "Ryzen 9 5900X",
     "core_count": 12,
     "threads": 24,
     "min_freq": 3.7,
@@ -294,7 +294,7 @@
     }
   },
   {
-    "name": "Core i7-13700K Raptor Lake-S ",
+    "name": "Core i7-13700K",
     "core_count": 16,
     "threads": 24,
     "min_freq": 3.4,
@@ -308,7 +308,7 @@
     }
   },
   {
-    "name": "Ryzen 3 2200G Raven Ridge",
+    "name": "Ryzen 3 2200G",
     "core_count": 4,
     "threads": 4,
     "min_freq": 3.5,
@@ -322,7 +322,7 @@
     }
   },
   {
-    "name": "Ryzen 5 5500U Lucienne",
+    "name": "Ryzen 5 5500U",
     "core_count": 6,
     "threads": 12,
     "min_freq": 2.1,
@@ -336,7 +336,7 @@
     }
   },
   {
-    "name": "Core i5-13500 Raptor Lake-S ",
+    "name": "Core i5-13500",
     "core_count": 14,
     "threads": 20,
     "min_freq": 2.5,
@@ -350,7 +350,7 @@
     }
   },
   {
-    "name": "Ryzen 5 7600X Raphael",
+    "name": "Ryzen 5 7600X",
     "core_count": 6,
     "threads": 12,
     "min_freq": 4.7,
@@ -364,7 +364,7 @@
     }
   },
   {
-    "name": "Core i5-3470 Ivy Bridge",
+    "name": "Core i5-3470",
     "core_count": 4,
     "threads": 4,
     "min_freq": 3.2,
@@ -378,7 +378,7 @@
     }
   },
   {
-    "name": "FX-8350 Vishera",
+    "name": "FX-8350",
     "core_count": 8,
     "threads": 8,
     "min_freq": 4,
@@ -392,7 +392,7 @@
     }
   },
   {
-    "name": "Xeon E5-2696 v3 Haswell-EP ",
+    "name": "Xeon E5-2696 v3",
     "core_count": 18,
     "threads": 36,
     "min_freq": 2.3,
@@ -406,7 +406,7 @@
     }
   },
   {
-    "name": "Ryzen 5 4500 Renoir",
+    "name": "Ryzen 5 4500",
     "core_count": 6,
     "threads": 12,
     "min_freq": 3.6,
@@ -420,7 +420,7 @@
     }
   },
   {
-    "name": "Ryzen 5 7600 Raphael",
+    "name": "Ryzen 5 7600",
     "core_count": 6,
     "threads": 12,
     "min_freq": 3.8,
@@ -434,7 +434,7 @@
     }
   },
   {
-    "name": "Ryzen 9 7940HS Phoenix",
+    "name": "Ryzen 9 7940HS",
     "core_count": 8,
     "threads": 16,
     "min_freq": 4,
@@ -448,7 +448,7 @@
     }
   },
   {
-    "name": "Core i5-6500 Skylake",
+    "name": "Core i5-6500",
     "core_count": 4,
     "threads": 4,
     "min_freq": 3.2,
@@ -462,7 +462,7 @@
     }
   },
   {
-    "name": "Ryzen 7 1700 Zen",
+    "name": "Ryzen 7 1700",
     "core_count": 8,
     "threads": 16,
     "min_freq": 3,
@@ -476,7 +476,7 @@
     }
   },
   {
-    "name": "Ryzen 9 7900X Raphael ",
+    "name": "Ryzen 9 7900X",
     "core_count": 12,
     "threads": 24,
     "min_freq": 4.7,
@@ -490,7 +490,7 @@
     }
   },
   {
-    "name": "Core i5-1235U Alder Lake-U ",
+    "name": "Core i5-1235U",
     "core_count": 10,
     "threads": 12,
     "min_freq": 1.3,
@@ -504,7 +504,7 @@
     }
   },
   {
-    "name": "Core i7-4790 Haswell",
+    "name": "Core i7-4790",
     "core_count": 4,
     "threads": 8,
     "min_freq": 3.6,
@@ -518,7 +518,7 @@
     }
   },
   {
-    "name": "Ryzen 5 2600X Zen",
+    "name": "Ryzen 5 2600X",
     "core_count": 6,
     "threads": 12,
     "min_freq": 3.6,
@@ -532,7 +532,7 @@
     }
   },
   {
-    "name": "Ryzen 9 3900X Matisse ",
+    "name": "Ryzen 9 3900X",
     "core_count": 12,
     "threads": 24,
     "min_freq": 3.8,
@@ -546,7 +546,7 @@
     }
   },
   {
-    "name": "Core i7-3770 Ivy Bridge",
+    "name": "Core i7-3770",
     "core_count": 4,
     "threads": 8,
     "min_freq": 3.4,
@@ -560,7 +560,7 @@
     }
   },
   {
-    "name": "Ryzen 3 1200 Zen",
+    "name": "Ryzen 3 1200",
     "core_count": 4,
     "threads": 4,
     "min_freq": 3.1,
@@ -574,7 +574,7 @@
     }
   },
   {
-    "name": "Ryzen 3 3250U Raven Ridge",
+    "name": "Ryzen 3 3250U",
     "core_count": 2,
     "threads": 4,
     "min_freq": 2.6,
@@ -588,7 +588,7 @@
     }
   },
   {
-    "name": "Ryzen 5 3600X Matisse",
+    "name": "Ryzen 5 3600X",
     "core_count": 6,
     "threads": 12,
     "min_freq": 3.8,
@@ -602,7 +602,7 @@
     }
   },
   {
-    "name": "Ryzen 5 2400G Raven Ridge",
+    "name": "Ryzen 5 2400G",
     "core_count": 4,
     "threads": 8,
     "min_freq": 3.6,
@@ -616,7 +616,7 @@
     }
   },
   {
-    "name": "Ryzen 5 3400G Picasso",
+    "name": "Ryzen 5 3400G",
     "core_count": 4,
     "threads": 8,
     "min_freq": 3.7,
@@ -630,7 +630,7 @@
     }
   },
   {
-    "name": "FX-6300 Vishera",
+    "name": "FX-6300",
     "core_count": 6,
     "threads": 6,
     "min_freq": 3.5,
@@ -644,7 +644,7 @@
     }
   },
   {
-    "name": "Ryzen 7 7700X Raphael",
+    "name": "Ryzen 7 7700X",
     "core_count": 8,
     "threads": 16,
     "min_freq": 4.5,
@@ -658,7 +658,7 @@
     }
   },
   {
-    "name": "Ryzen 5 3500U Picasso",
+    "name": "Ryzen 5 3500U",
     "core_count": 4,
     "threads": 8,
     "min_freq": 2.1,
